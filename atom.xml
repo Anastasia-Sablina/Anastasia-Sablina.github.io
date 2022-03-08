@@ -23,13 +23,14 @@
     <published>2022-03-01T11:57:06.000Z</published>
     <updated>2022-03-05T12:43:26.040Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0/spirit.JFIF" alt="test"></p><p><img src="/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0/Azazel2.png"></p><p><a href="%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0/test.pdf">pdf-plugin</a></p><p><a href="https://www.baidu.com/">baidu</a></p><h1 id="About-how-to-set-up-another-environment"><a href="#About-how-to-set-up-another-environment" class="headerlink" title="About how to set up another environment"></a>About how to set up another environment</h1><h2 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h2><p>nodejs</p><p>(cnpm)</p><p>git</p><p>hexo</p><h2 id="init"><a href="#init" class="headerlink" title="init"></a>init</h2><p>1 Create a folder</p><p>2 <code>cd folder</code>, <code>hexo init</code></p><p>3 move <strong>source</strong>, <strong>themes</strong>, <strong>scaffolds</strong> into the folder</p><p>4 install packages:</p><blockquote><p>hexo-renderer-pandoc</p><p>pandoc</p><p>hexo-filter-mathjax</p><p>hexo-asset-image</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<figure><img src="/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0/spirit.JFIF" alt="test"><figcaption aria-hidden="true">test</figcaption></figure><p><img src="/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0/Azazel2.png"></p><p><a href="博客配置简述/test.pdf">pdf-plugin</a></p><p><a href="https://www.baidu.com">baidu</a></p><h1 id="about-how-to-set-up-another-environment">About how to set upanother environment</h1><h2 id="preparation">Preparation</h2><p>nodejs</p><p>(cnpm)</p><p>git</p><p>hexo</p><h2 id="init">init</h2><p>1 Create a folder</p><p>2 <code>cd folder</code>, <code>hexo init</code></p><p>3 move <strong>source</strong>, <strong>themes</strong>,<strong>scaffolds</strong> into the folder</p><p>4 install packages:</p><blockquote><p>hexo-renderer-pandoc</p><p>pandoc</p><p>hexo-filter-mathjax</p><p>hexo-asset-image</p></blockquote>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0/spirit.JFIF&quot; alt=&quot;test&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Blog-basic/%E5%8D</summary>
+    <summary type="html">&lt;figure&gt;
+&lt;img src=&quot;/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0/spirit.JFIF&quot; alt=&quot;test&quot;&gt;
+&lt;figcaption aria-hidden=&quot;tr</summary>
       
     
     
