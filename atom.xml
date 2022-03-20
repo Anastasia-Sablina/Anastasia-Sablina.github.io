@@ -6,7 +6,7 @@
   <link href="http://anastasia-lynn.gitee.io/atom.xml" rel="self"/>
   
   <link href="http://anastasia-lynn.gitee.io/"/>
-  <updated>2022-03-10T08:57:55.016Z</updated>
+  <updated>2022-03-20T13:24:15.871Z</updated>
   <id>http://anastasia-lynn.gitee.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://anastasia-lynn.gitee.io/Learning-ROS/test.html"/>
+    <id>http://anastasia-lynn.gitee.io/Learning-ROS/test.html</id>
+    <published>2022-03-20T18:36:24.000Z</published>
+    <updated>2022-03-20T13:24:15.871Z</updated>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
+    
+    
+    
+    <category term="Learning-ROS" scheme="http://anastasia-lynn.gitee.io/categories/Learning-ROS/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>A Brief Introduction To Setting Up A Blog</title>
