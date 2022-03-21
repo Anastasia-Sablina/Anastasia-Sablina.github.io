@@ -6,7 +6,7 @@
   <link href="http://anastasia-lynn.gitee.io/atom.xml" rel="self"/>
   
   <link href="http://anastasia-lynn.gitee.io/"/>
-  <updated>2022-03-20T13:24:15.871Z</updated>
+  <updated>2022-03-21T15:11:58.548Z</updated>
   <id>http://anastasia-lynn.gitee.io/</id>
   
   <author>
@@ -17,24 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://anastasia-lynn.gitee.io/Learning-ROS/test.html"/>
-    <id>http://anastasia-lynn.gitee.io/Learning-ROS/test.html</id>
-    <published>2022-03-20T18:36:24.000Z</published>
-    <updated>2022-03-20T13:24:15.871Z</updated>
+    <title>一些脑洞。</title>
+    <link href="http://anastasia-lynn.gitee.io/brainstorm/brainstorm.html"/>
+    <id>http://anastasia-lynn.gitee.io/brainstorm/brainstorm.html</id>
+    <published>2022-03-21T22:54:12.000Z</published>
+    <updated>2022-03-21T15:11:58.548Z</updated>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p>随手记点脑洞。</p><p>全波段分立/低集成收发信机</p><p>带示波器频谱仪信号源逻分的便携平台</p><p>CMOS三进制计算机</p>]]></content>
     
     
       
       
-    <summary type="html">
+    <summary type="html">&lt;p&gt;随手记点脑洞。&lt;/p&gt;
+&lt;p&gt;全波段分立/低集成收发信机&lt;/p&gt;
+&lt;p&gt;带示波器频谱仪信号源逻分的便携平台&lt;/p&gt;
+&lt;p&gt;CMOS三进制计算机&lt;/p&gt;
 </summary>
       
     
     
     
-    <category term="Learning-ROS" scheme="http://anastasia-lynn.gitee.io/categories/Learning-ROS/"/>
+    <category term="brainstorm" scheme="http://anastasia-lynn.gitee.io/categories/brainstorm/"/>
     
     
   </entry>
