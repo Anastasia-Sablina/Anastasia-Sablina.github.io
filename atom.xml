@@ -44,11 +44,11 @@
   </entry>
   
   <entry>
-    <title>【小项目】Cuboat 四轴小船介绍</title>
-    <link href="http://anastasia-lynn.gitee.io/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/ESP32/cuboat-introduction.html"/>
-    <id>http://anastasia-lynn.gitee.io/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/ESP32/cuboat-introduction.html</id>
+    <title>【项目】Cuboat 四轴小船介绍</title>
+    <link href="http://anastasia-lynn.gitee.io/Cuboat/cuboat-introduction.html"/>
+    <id>http://anastasia-lynn.gitee.io/Cuboat/cuboat-introduction.html</id>
     <published>2022-04-13T16:26:45.000Z</published>
-    <updated>2022-04-16T14:52:14.752Z</updated>
+    <updated>2022-04-18T02:34:51.766Z</updated>
     
     <content type="html"><![CDATA[<h2 id="功能简述"><a href="#功能简述" class="headerlink" title="功能简述"></a>功能简述</h2><p>动力：船只通过四轴无刷推进器产生全向推力</p><p>能源：由12V/7AH磷酸铁锂电池供电并内置充电电路，可监控电量IO</p><p>特点：主体呈方形，其中一侧面可主动与另一船只吸合，其余三面有磁铁，可供其它船只吸合</p><p>​            被吸合船只可给吸合船只充电并承担其内部能源消耗（？）</p><h2 id="技术依赖"><a href="#技术依赖" class="headerlink" title="技术依赖"></a>技术依赖</h2><p>动力：</p><p>​    -ESP32控制四合一电调：DSHOT600协议</p><p>通信：</p><p>​    -ESP32与上位机无线通信：ROS，wifi传输</p><p>​    </p>]]></content>
     
@@ -61,14 +61,12 @@
     
     
     
-    <category term="个人项目" scheme="http://anastasia-lynn.gitee.io/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
-    
-    <category term="ROS" scheme="http://anastasia-lynn.gitee.io/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/"/>
-    
-    <category term="ESP32" scheme="http://anastasia-lynn.gitee.io/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/ESP32/"/>
+    <category term="Cuboat" scheme="http://anastasia-lynn.gitee.io/categories/Cuboat/"/>
     
     
-    <category term="Cuboat" scheme="http://anastasia-lynn.gitee.io/tags/Cuboat/"/>
+    <category term="ROS" scheme="http://anastasia-lynn.gitee.io/tags/ROS/"/>
+    
+    <category term="ESP32" scheme="http://anastasia-lynn.gitee.io/tags/ESP32/"/>
     
   </entry>
   

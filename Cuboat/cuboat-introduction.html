@@ -4,7 +4,7 @@
   <!-- 元数据 -->
   <meta charset="utf-8">
   <link rel="icon" href="">
-  <title>【小项目】Cuboat 四轴小船介绍 | Anastasia-Sablina Design Bureau</title>
+  <title>【项目】Cuboat 四轴小船介绍 | Anastasia-Sablina Design Bureau</title>
   <meta name="author" content="Анастасия-Саблина" />
   <meta http-equiv="Cache-Control" content="no-transform" />
   <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -13,20 +13,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="format-detection" content="telphone=no, email=no" />
   
-    <meta name="keywords" content="Cuboat" />
+    <meta name="keywords" content="ESP32, ROS" />
   
   <meta name="description" content="功能简述动力：船只通过四轴无刷推进器产生全向推力 能源：由12V&#x2F;7AH磷酸铁锂电池供电并内置充电电路，可监控电量IO 特点：主体呈方形，其中一侧面可主动与另一船只吸合，其余三面有磁铁，可供其它船只吸合 ​            被吸合船只可给吸合船只充电并承担其内部能源消耗（？） 技术依赖动力： ​    -ESP32控制四合一电调：DSHOT600协议 通信： ​    -ESP32与上位机无">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【小项目】Cuboat 四轴小船介绍">
-<meta property="og:url" content="http://anastasia-lynn.gitee.io/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/ESP32/cuboat-introduction.html">
+<meta property="og:title" content="【项目】Cuboat 四轴小船介绍">
+<meta property="og:url" content="http://anastasia-lynn.gitee.io/Cuboat/cuboat-introduction.html">
 <meta property="og:site_name" content="Anastasia-Sablina Design Bureau">
 <meta property="og:description" content="功能简述动力：船只通过四轴无刷推进器产生全向推力 能源：由12V&#x2F;7AH磷酸铁锂电池供电并内置充电电路，可监控电量IO 特点：主体呈方形，其中一侧面可主动与另一船只吸合，其余三面有磁铁，可供其它船只吸合 ​            被吸合船只可给吸合船只充电并承担其内部能源消耗（？） 技术依赖动力： ​    -ESP32控制四合一电调：DSHOT600协议 通信： ​    -ESP32与上位机无">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://anastasia-lynn.gitee.io/null">
 <meta property="article:published_time" content="2022-04-13T16:26:45.000Z">
-<meta property="article:modified_time" content="2022-04-16T14:52:14.752Z">
+<meta property="article:modified_time" content="2022-04-18T02:34:51.766Z">
 <meta property="article:author" content="Анастасия-Саблина">
-<meta property="article:tag" content="Cuboat">
+<meta property="article:tag" content="ROS">
+<meta property="article:tag" content="ESP32">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://anastasia-lynn.gitee.io/null">
 <meta name="twitter:site" content="@null">
@@ -265,7 +266,7 @@ mjx-container[display="true"] + br {
     <div class="kratos-hentry kratos-post-inner clearfix">
         <header class="kratos-entry-header">
             
-                <h1 class="kratos-entry-title text-center">【小项目】Cuboat 四轴小船介绍</h1>
+                <h1 class="kratos-entry-title text-center">【项目】Cuboat 四轴小船介绍</h1>
             
             
             <ul class="kratos-post-meta text-center">
@@ -285,7 +286,7 @@ mjx-container[display="true"] + br {
         <div class="kratos-post-content">
             <div id="expire-alert" class="alert alert-warning hidden" role="alert">
                 <div class="icon"><i class="fa fa-warning"></i></div>
-                <div class="text"><p>本文最后编辑于 <time datetime="1650120734752"></time> 前，其中的内容可能需要更新。</p></div>
+                <div class="text"><p>本文最后编辑于 <time datetime="1650249291766"></time> 前，其中的内容可能需要更新。</p></div>
             </div>
             
                 <div class="kratos-post-inner-toc">
@@ -355,7 +356,7 @@ mjx-container[display="true"] + br {
     <script type="text/javascript">
         $(()=>{
             new QRCode("wechat-qr", {
-                text: "http://anastasia-lynn.gitee.io/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/ESP32/cuboat-introduction.html",
+                text: "http://anastasia-lynn.gitee.io/Cuboat/cuboat-introduction.html",
                 width: 150,
                 height: 150,
                 correctLevel : QRCode.CorrectLevel.H
@@ -367,8 +368,8 @@ mjx-container[display="true"] + br {
             const qzoneBase     = "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?";
             const facebookBase  = "https://www.facebook.com/sharer/sharer.php?";
             const twitterBase   = "https://twitter.com/intent/tweet?";
-            const hostUrl       = "http://anastasia-lynn.gitee.io/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/ESP32/cuboat-introduction.html";
-            const title         = "「【小项目】Cuboat 四轴小船介绍」";
+            const hostUrl       = "http://anastasia-lynn.gitee.io/Cuboat/cuboat-introduction.html";
+            const title         = "「【项目】Cuboat 四轴小船介绍」";
             const excerpt       = `功能简述动力：船只通过四轴无刷推进器产生全向推力
 能源：由12V/7AH磷酸铁锂电池供电并内置充电电路，可监控电量IO
 特点：主体呈方形，其中一侧面可主动与另一船只吸合，其余三面有磁铁，可供其它船只吸合
@@ -391,10 +392,10 @@ mjx-container[display="true"] + br {
             <div class="footer-tag clearfix">
                 <div class="pull-left">
                 <i class="fa fa-tags"></i>
-                    <a class="tag-none-link" href="/tags/Cuboat/" rel="tag">Cuboat</a>
+                    <a class="tag-none-link" href="/tags/ESP32/" rel="tag">ESP32</a>, <a class="tag-none-link" href="/tags/ROS/" rel="tag">ROS</a>
                 </div>
                 <div class="pull-date">
-                <span>最后编辑：2022-04-16</span>
+                <span>最后编辑：2022-04-18</span>
                 </div>
             </div>
         </footer>
@@ -453,7 +454,7 @@ mjx-container[display="true"] + br {
                 分类
             </span>
             <span class="count">
-                6
+                4
             </span>
         </a>
         <a class="meta-item" href="/tags/">
@@ -461,7 +462,7 @@ mjx-container[display="true"] + br {
                 标签
             </span>
             <span class="count">
-                3
+                4
             </span>
         </a>
     </div>
@@ -484,7 +485,7 @@ mjx-container[display="true"] + br {
                 
   <aside id="krw-categories" class="widget widget-kratos-categories clearfix">
     <h4 class="widget-title"><i class="fa fa-folder"></i>分类目录</h4>
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Blog-basic/">Blog basic</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/brainstorm/">brainstorm</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/circuit-analysis/">circuit-analysis</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/">个人项目</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/">ROS</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/ESP32/">ESP32</a><span class="category-list-count">1</span></li></ul></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Blog-basic/">Blog basic</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Cuboat/">Cuboat</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/brainstorm/">brainstorm</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/circuit-analysis/">circuit-analysis</a><span class="category-list-count">1</span></li></ul>
   </aside>
 
 
@@ -493,7 +494,7 @@ mjx-container[display="true"] + br {
   <aside id="krw-tags" class="widget widget-kratos-tags clearfix">
     <h4 class="widget-title"><i class="fa fa-tags"></i>标签聚合</h4>
       <div class="tag-clouds">
-        <a href="/tags/Cuboat/" style="font-size: 0.6em;">Cuboat</a> <a href="/tags/ternary/" style="font-size: 0.6em;">ternary</a> <a href="/tags/%E5%AF%BC%E5%BC%95%E5%A4%B4%E7%B3%BB%E5%88%97/" style="font-size: 0.6em;">导引头系列</a>
+        <a href="/tags/ESP32/" style="font-size: 0.6em;">ESP32</a> <a href="/tags/ROS/" style="font-size: 0.6em;">ROS</a> <a href="/tags/ternary/" style="font-size: 0.6em;">ternary</a> <a href="/tags/%E5%AF%BC%E5%BC%95%E5%A4%B4%E7%B3%BB%E5%88%97/" style="font-size: 0.6em;">导引头系列</a>
       </div>
   </aside>
 
@@ -513,7 +514,7 @@ mjx-container[display="true"] + br {
         
           
           
-            <a class="list-group-item" href="/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/ROS/ESP32/cuboat-introduction.html"><i class="fa  fa-book"></i> 【小项目】Cuboat 四轴小船介绍</a>
+            <a class="list-group-item" href="/Cuboat/cuboat-introduction.html"><i class="fa  fa-book"></i> 【项目】Cuboat 四轴小船介绍</a>
             
           
         
