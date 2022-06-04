@@ -6,7 +6,7 @@
   <link href="http://anastasia-lynn.gitee.io/atom.xml" rel="self"/>
   
   <link href="http://anastasia-lynn.gitee.io/"/>
-  <updated>2022-05-05T09:01:27.831Z</updated>
+  <updated>2022-06-04T03:08:39.609Z</updated>
   <id>http://anastasia-lynn.gitee.io/</id>
   
   <author>
@@ -21,14 +21,20 @@
     <link href="http://anastasia-lynn.gitee.io/Quant/Introduction-to-my-Quant-diary.html"/>
     <id>http://anastasia-lynn.gitee.io/Quant/Introduction-to-my-Quant-diary.html</id>
     <published>2022-05-02T19:23:14.000Z</published>
-    <updated>2022-05-05T09:01:27.831Z</updated>
+    <updated>2022-06-04T03:08:39.609Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h1><p>​    本系列源自ECE废柴<em>Anastasia-Sablina</em>，要用的数学都是按期末不挂的标准现学的， 必定<strong>基础不牢地动山摇</strong>，但理论上都能跑起来[毕竟绝大多数功能都是调用别人的库] (<em>´ω`</em>)</p><p>说是量化其实不过是自动化（迷惑）选股盯盘的平台（而且相当粗糙</p><p>本系列代码存于github (repo)[]，参考书目存于同一仓库的reference branch.</p><p>​    在本系列中有概率使用的库有：<a href="https://numpy.org/doc/stable/numpy-user.pdf">Numpy</a>, <a href="https://pandas.pydata.org/docs/">pandas</a>, <a href="https://matplotlib.org/stable/api/index.html">matplotlib</a>, <a href="https://scikit-learn.org/stable/modules/classes.html">Scikit-Learn</a>, <a href="https://mrjbq7.github.io/ta-lib/">TA-Lib</a> (链接为documentation)</p><p>​    本系列随缘更，咱看到哪写到哪。</p><h2 id="理论导向篇："><a href="#理论导向篇：" class="headerlink" title="理论导向篇："></a>理论导向篇：</h2><p>（总之就是把各种指标一拍脑袋做成量化指标来用）</p><h3 id="可能会做的："><a href="#可能会做的：" class="headerlink" title="可能会做的："></a>可能会做的：</h3><p>1 支撑/阻力线(Support &amp; Resistance Line)</p><p>2 布林线(Bollinger bands)</p><p>3 MA(Moving Average)与MACD(Moving Average)</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>投资是一种比较花钱的个人爱好。</p><p><strong>Anastasia. Sablina</strong>, (?-)</p></blockquote><h1 id="简介">简介：</h1><p>​本系列源自ECE废柴<em>Anastasia-Sablina</em>，要用的数学都是按期末不挂的标准现学的，必定<strong>基础不牢地动山摇</strong>，但理论上都能跑起来[毕竟绝大多数功能都是调用别人的库](<em>´ω`</em>) .</p><p>说是量化其实不过是自动化（迷惑）选股盯盘的平台（而且相当粗糙）</p><p>本系列代码存于github repo，参考书目存于同一仓库的referencebranch.</p><p>​ 在本系列中有概率使用的库有：<a href="./Introduction-to-my-Quant-diary/numpy-ref.pdf">Numpy</a>, <a href="./Introduction-to-my-Quant-diary/pandas.pdf">pandas</a>, <a href="https://matplotlib.org/stable/api/index.html">matplotlib</a>, <a href="https://scikit-learn.org/stable/modules/classes.html">Scikit-Learn</a>,<a href="https://mrjbq7.github.io/ta-lib/">TA-Lib</a>(链接为documentation)</p><p>​ 本系列随缘更，咱看到哪写到哪。</p><h2 id="指标篇">指标篇：</h2><p>（总之就是把各种指标一拍脑袋做成因子来用）</p><h2 id="references"><em>References</em></h2><p>（对不住我的英语老师了 但我是真不想再写APA citation了呜呜呜呜）</p><p>Python for Data Analysis: DATA WRANGLING WITH PANDAS, NUMPY, ANDIPYTHON</p><p>金融统计与数据分析, David Ruppert</p><p>经典技术分析(原书第三版), Charles. D. Kirkpatrick. Ⅱ</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;简介：&quot;&gt;&lt;a href=&quot;#简介：&quot; class=&quot;headerlink&quot; title=&quot;简介：&quot;&gt;&lt;/a&gt;简介：&lt;/h1&gt;&lt;p&gt;​    本系列源自ECE废柴&lt;em&gt;Anastasia-Sablina&lt;/em&gt;，要用的数学都是按期末不挂的标准现学的， 必定&lt;s</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;投资是一种比较花钱的个人爱好。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Anastasia. Sablina&lt;/strong&gt;, (?-)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;简介&quot;&gt;简介：&lt;/h1&gt;
+&lt;p&gt;​
+本系列源自ECE废</summary>
       
     
     
