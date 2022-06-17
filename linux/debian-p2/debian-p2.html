@@ -4,7 +4,7 @@
   <!-- 元数据 -->
   <meta charset="utf-8">
   <link rel="icon" href="">
-  <title>Anastasia-Sablina Design Bureau</title>
+  <title>在Pentium II上安装Debian3.1 | Anastasia-Sablina Design Bureau</title>
   <meta name="author" content="Анастасия-Саблина" />
   <meta http-equiv="Cache-Control" content="no-transform" />
   <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -13,19 +13,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="format-detection" content="telphone=no, email=no" />
   
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="linux, retro, 行为艺术" />
   
-  <meta name="description" content="This is Anastasia-Sablina, she is a ham and cybernetician.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Anastasia-Sablina Design Bureau">
-<meta property="og:url" content="http://anastasia-lynn.gitee.io/archives/2022/index.html">
+  <meta name="description" content="Intro 某日突发奇想，然后发现国补盒子真能塞下软盘（虽然并不知道能塞多少张 正好咱也没多少）， 那能不能整点debian安装介质塞进debian盒子里呢🤔  本来想试着装在另一台80486笔记本(HP J2302A Internet advisor)上，结果它的硬盘挂了（＞人＜；）(内置电源也冒烟了)，还在解剖中…… 于是目光转向了另一个台式Pentium II ψ(｀∇´)ψ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在Pentium II上安装Debian3.1">
+<meta property="og:url" content="http://anastasia-lynn.gitee.io/linux/debian-p2/debian-p2.html">
 <meta property="og:site_name" content="Anastasia-Sablina Design Bureau">
-<meta property="og:description" content="This is Anastasia-Sablina, she is a ham and cybernetician.">
+<meta property="og:description" content="Intro 某日突发奇想，然后发现国补盒子真能塞下软盘（虽然并不知道能塞多少张 正好咱也没多少）， 那能不能整点debian安装介质塞进debian盒子里呢🤔  本来想试着装在另一台80486笔记本(HP J2302A Internet advisor)上，结果它的硬盘挂了（＞人＜；）(内置电源也冒烟了)，还在解剖中…… 于是目光转向了另一个台式Pentium II ψ(｀∇´)ψ">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://anastasia-lynn.gitee.io/null">
+<meta property="og:image" content="http://anastasia-lynn.gitee.io/linux/debian-p2/debian-p2.htmllesbian.png">
+<meta property="article:published_time" content="2022-06-04T17:29:41.000Z">
+<meta property="article:modified_time" content="2022-06-09T16:52:16.890Z">
 <meta property="article:author" content="Анастасия-Саблина">
+<meta property="article:tag" content="linux">
+<meta property="article:tag" content="retro">
+<meta property="article:tag" content="行为艺术">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://anastasia-lynn.gitee.io/null">
+<meta name="twitter:image" content="http://anastasia-lynn.gitee.io/linux/debian-p2/debian-p2.htmllesbian.png">
 <meta name="twitter:site" content="@null">
   
   <!-- 站点验证相关 -->
@@ -73,7 +78,119 @@
     
   </style>
   
-<meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="Anastasia-Sablina Design Bureau" type="application/atom+xml">
+<meta name="generator" content="Hexo 6.0.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style><link rel="alternate" href="/atom.xml" title="Anastasia-Sablina Design Bureau" type="application/atom+xml">
 </head>
 
 
@@ -150,262 +267,174 @@
 
         
 
+            <article>
+    <div class="kratos-hentry kratos-post-inner clearfix">
+        <header class="kratos-entry-header">
             
-<style>
-  .post-meta time{color:#00a7e0}
-  @media (max-width:767px){.posts-collapse{margin:0 20px}
-  .posts-collapse .post-meta,
-  .posts-collapse .post-title{display:block;width:auto;text-align:left}}
-  .posts-collapse{position:relative}
-  .posts-collapse::after{content:" ";position:absolute;top:20px;left:0;margin-left:-2px;width:4px;height:calc(100% - 35px);background:#f5f5f5;z-index:-1}
-  @media (max-width:991px){.posts-collapse{margin:0 20px}}
-  .posts-collapse .collection-title{position:relative}
-  .posts-collapse .collection-title h1,
-  .posts-collapse .collection-title h2{margin-left:20px}
-  .posts-collapse .collection-title small{color:#bbb;margin-left:5px}
-  .posts-collapse .collection-title::before{content:" ";position:absolute;left:0;top:50%;margin-left:-4px;margin-top:-4px;width:8px;height:8px;background:#bbb;border-radius:50%}
-  .posts-collapse .post-header{position:relative;transition-duration:.2s;transition-timing-function:ease-in-out;transition-delay:0s;transition-property:border}
-  .posts-collapse .post-header::before{content:" ";position:absolute;left:0;top:12px;width:6px;height:6px;margin-left:-4px;background:#bbb;border-radius:50%;border:1px solid #fff;transition: all .3s ease-in-out}
-  .posts-collapse .post-header:hover{border-bottom-color:#666}
-  .posts-collapse .post-header:hover::before{background:#222}
-  .posts-collapse .post-meta{position:absolute;font-size:12px;left:20px;top:5px}
-  .posts-collapse .post-comments-count{display:none}
-  .posts-collapse .post-title{margin-left:70px;font-size:16px;font-weight:400;line-height:inherit}
-  .posts-collapse .post-title::after{margin-left:3px;opacity:.6}
-  .posts-collapse .post-title a{color:#666;border-bottom:none}
-</style>
-
-  <article>
-      <div class="kratos-hentry kratos-post-inner clearfix">
-          <div class="kratos-post-content">
-            <h2 class="title-h2 text-center">文章归档</h2>
-            <div id="archives">
-              <div class="post-block archive post" style="margin-left: 2em;">
-                <h3 class="archive-page-counter">当前共有 9 篇文章 (゜-゜)つロ 干杯~</h3>
-                <div class="posts-collapse">
-                  
-                  
+                <h1 class="kratos-entry-title text-center">在Pentium II上安装Debian3.1</h1>
+            
+            
+            <ul class="kratos-post-meta text-center">
+                <li><i class="fa fa-calendar"></i> 2022-06-04</li>
+                <li><i class="fa fa-user"></i> 作者 Анастасия-Саблина</li>
+                <li>
+                    <i class="fa fa-edit"></i> 
                     
                     
-                      <!-- 没遇到Title的会被自动忽略年份，即使并不一致 -->
-                      
-                      <div class="collection-title">
-                        <a href="/archives/2022/"><h2 class="archive-year">2022</h2></a>
-                      </div>
+                        595
                     
-                    
-                      <article class="post" itemscope>
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
-                                <a class="post-title-link" href="/linux/debian-p2/debian-p2.html" itemprop="url">
-                                  <span itemprop="name">在Pentium II上安装Debian3.1</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="dateCreated"
-                                  datetime="2022-06-04T17:29:41Z"
-                                  content="2022-06-04" >
-                              06-04
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                    
-                    
-                    
-                      <article class="post" itemscope>
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
-                                <a class="post-title-link" href="/Quant/Introduction-to-my-Quant-diary.html" itemprop="url">
-                                  <span itemprop="name">【Intro】Anastasia的投研日记</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="dateCreated"
-                                  datetime="2022-05-02T19:23:14Z"
-                                  content="2022-05-02" >
-                              05-02
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                    
-                    
-                    
-                      <article class="post" itemscope>
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
-                                <a class="post-title-link" href="/brainstorm/Introduction-to-my-IR-seeker.html" itemprop="url">
-                                  <span itemprop="name">简易红外导引头简述</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="dateCreated"
-                                  datetime="2022-04-17T00:02:58Z"
-                                  content="2022-04-17" >
-                              04-17
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                    
-                    
-                    
-                      <article class="post" itemscope>
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
-                                <a class="post-title-link" href="/Cuboat/cuboat-introduction.html" itemprop="url">
-                                  <span itemprop="name">【项目】Cuboat 四轴小船介绍</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="dateCreated"
-                                  datetime="2022-04-13T16:26:45Z"
-                                  content="2022-04-13" >
-                              04-13
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                    
-                    
-                    
-                      <article class="post" itemscope>
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
-                                <a class="post-title-link" href="/circuit-analysis/Modeling-electric-components.html" itemprop="url">
-                                  <span itemprop="name">电路元件的建模</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="dateCreated"
-                                  datetime="2022-04-10T00:46:21Z"
-                                  content="2022-04-10" >
-                              04-10
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                    
-                    
-                    
-                      <article class="post" itemscope>
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
-                                <a class="post-title-link" href="/brainstorm/ternary-computer-sketch.html" itemprop="url">
-                                  <span itemprop="name">对三进制计算机的一些小脑洞</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="dateCreated"
-                                  datetime="2022-04-08T01:19:37Z"
-                                  content="2022-04-08" >
-                              04-08
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                    
-                    
-                    
-                      <article class="post" itemscope>
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
-                                <a class="post-title-link" href="/brainstorm/brainstorm.html" itemprop="url">
-                                  <span itemprop="name">一些脑洞。</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="dateCreated"
-                                  datetime="2022-03-21T22:54:12Z"
-                                  content="2022-03-21" >
-                              03-21
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                    
-                    
-                    
-                      <article class="post" itemscope>
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
-                                <a class="post-title-link" href="/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0.html" itemprop="url">
-                                  <span itemprop="name">A Brief Introduction To Setting Up A Blog</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="dateCreated"
-                                  datetime="2022-03-01T11:57:06Z"
-                                  content="2022-03-01" >
-                              03-01
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                    
-                    
-                    
-                      <article class="post" itemscope>
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
-                                <a class="post-title-link" href="/Robomaster/Computer-Vision/%E6%9E%81%E7%AE%80%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2%E8%BD%A8%E8%BF%B9%E9%A2%84%E6%B5%8B.html" itemprop="url">
-                                  <span itemprop="name">极简卡尔曼滤波轨迹预测</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="dateCreated"
-                                  datetime="2022-01-16T09:29:37Z"
-                                  content="2022-01-16" >
-                              01-16
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                </div>
-              </div>
+                    字
+                </li>
+                
+            </ul>
+        </header>
+        <div class="kratos-post-content">
+            <div id="expire-alert" class="alert alert-warning hidden" role="alert">
+                <div class="icon"><i class="fa fa-warning"></i></div>
+                <div class="text"><p>本文最后编辑于 <time datetime="1654793536890"></time> 前，其中的内容可能需要更新。</p></div>
             </div>
-        </div>
-      </div>
-      
-  </article>
+            
+                <div class="kratos-post-inner-toc">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#intro"><span class="toc-number">1.</span> <span class="toc-text">Intro</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%88%E5%B0%9D%E8%AF%95%E7%94%A8cd%E8%A3%85%E4%B8%80%E4%B8%8B"><span class="toc-number">2.</span> <span class="toc-text">先尝试用CD装一下~</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#references"><span class="toc-number">3.</span> <span class="toc-text">References</span></a></li></ol>
+                </div>
+            
+            <hr />
+            <h2 id="intro">Intro</h2>
+<p>某日突发奇想，然后发现国补盒子真能塞下软盘（虽然并不知道能塞多少张
+正好咱也没多少），</p>
+<p>那能不能整点debian安装介质塞进debian盒子里呢🤔</p>
+<p><img src="/linux/debian-p2/debian-p2/progynova.jpg" style="zoom: 33%;"></p>
+<p>本来想试着装在另一台80486笔记本(HP J2302A Internet
+advisor)上，结果它的硬盘挂了（＞人＜；）<del>(内置电源也冒烟了)</del>，还在解剖中……</p>
+<p>于是目光转向了另一个台式Pentium II ψ(｀∇´)ψ，配置如下：</p>
+<p><img src="/linux/debian-p2/debian-p2/pentium.png" style="zoom: 50%;"></p>
+<h2 id="先尝试用cd装一下">先尝试用CD装一下~</h2>
+<p>（麻中麻 软盘镜像找不到）</p>
+<h2 id="references">References</h2>
+<p><a target="_blank" rel="noopener" href="https://forums.debian.net/viewtopic.php?t=1591">Debian 3.1
+on a Pentium 2 200 MMX - Debian User Forums</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.debian.org/releases/sarge/i386/">Debian
+GNU/Linux Installation Guide</a></p>
+<p><a target="_blank" rel="noopener" href="http://archive.debian.org/debian/dists/rex/main/disks-i386/current/install.html">Installing
+Debian Linux 1.2 from Floppy Disk</a></p>
+<p><a target="_blank" rel="noopener" href="https://get.debian.org/images/archive/">Index of
+/images/archive (debian.org)</a></p>
+<p>https://www.einval.com/~steve/software/jigdo/download/</p>
+<p><a target="_blank" rel="noopener" href="http://archive.debian.org/debian/dists/etch/main/installer-i386/current/images/floppy/">Index
+of /debian/dists/etch/main/installer-i386/current/images/floppy</a></p>
+<p><a target="_blank" rel="noopener" href="http://linux.simple.be/debian/etch/floppy">debian floppy
+install (simple.be)</a></p>
 
+        </div>
+        
+            <div class="kratos-copyright text-center clearfix">
+                <h5>本作品采用 <a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
+            </div>
+        
+        <footer class="kratos-entry-footer clearfix">
+            
+                <div class="post-like-donate text-center clearfix" id="post-like-donate">
+                
+                
+                    <a class="share" href="javascript:;"><i class="fa fa-share-alt"></i> 分享</a>
+                    <div class="share-wrap" style="display: none;">
+    <div class="share-group">
+        <a href="javascript:;" class="share-plain qq" onclick="share('qq');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-qq"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain qzone" onclick="share('qzone');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-star"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain weixin pop style-plain" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-weixin"></i>
+            </div>
+            <div class="share-int">
+                <div class="qrcode" id="wechat-qr"></div>
+                <p>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</p>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain weibo" onclick="share('weibo');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-weibo"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain facebook style-plain" onclick="share('facebook');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-facebook"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain twitter style-plain" onclick="share('twitter');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-twitter"></i>
+            </div>
+        </a>
+    </div>
+    <script type="text/javascript">
+        $(()=>{
+            new QRCode("wechat-qr", {
+                text: "http://anastasia-lynn.gitee.io/linux/debian-p2/debian-p2.html",
+                width: 150,
+                height: 150,
+                correctLevel : QRCode.CorrectLevel.H
+            });
+        });
+        function share(dest) {
+            const qqBase        = "https://connect.qq.com/widget/shareqq/index.html?";
+            const weiboBase     = "https://service.weibo.com/share/share.php?";
+            const qzoneBase     = "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?";
+            const facebookBase  = "https://www.facebook.com/sharer/sharer.php?";
+            const twitterBase   = "https://twitter.com/intent/tweet?";
+            const hostUrl       = "http://anastasia-lynn.gitee.io/linux/debian-p2/debian-p2.html";
+            const title         = "「在Pentium II上安装Debian3.1」";
+            const excerpt       = `Intro
+某日突发奇想，然后发现国补盒子真能塞下软盘（虽然并不知道能塞多少张
+正好咱也没多少），
+那能不能整点debian安装介质塞进debian盒子里呢🤔
+
+本来想试着装在另一台80486笔记本(HP J2302A I...`;
+            let _URL;
+            switch (dest) {
+                case "qq"       : _URL = qqBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";     break;
+                case "weibo"    : _URL = weiboBase+"url="+hostUrl+"&title="+title+excerpt;                                 break;
+                case "qzone"    : _URL = qzoneBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";  break;
+                case "facebook" : _URL = facebookBase+"u="+hostUrl;                                                        break;
+                case "twitter"  : _URL = twitterBase+"text="+title+excerpt+"&url="+hostUrl;                                break;
+            }
+            window.open(_URL);
+        };
+    </script>
+</div>
+                
+                </div>
+            
+            <div class="footer-tag clearfix">
+                <div class="pull-left">
+                <i class="fa fa-tags"></i>
+                    <a class="tag-none-link" href="/tags/linux/" rel="tag">linux</a>, <a class="tag-none-link" href="/tags/retro/" rel="tag">retro</a>, <a class="tag-none-link" href="/tags/%E8%A1%8C%E4%B8%BA%E8%89%BA%E6%9C%AF/" rel="tag">行为艺术</a>
+                </div>
+                <div class="pull-date">
+                <span>最后编辑：2022-06-09</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+        <nav class="navigation post-navigation clearfix" role="navigation">
+            
+            <div class="nav-previous clearfix">
+                <a title=" 【Intro】Anastasia的投研日记" href="/Quant/Introduction-to-my-Quant-diary.html">&lt; 上一篇</a>
+            </div>
+            
+            
+        </nav>
+    
+    
+</article>
 
         
 
@@ -418,8 +447,6 @@
 
 <section id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm">
     <!-- 文章和页面根据splitter来分割，没有的话就从头开始设置为sticky -->
-    
-        <div class="sticky-area">
     
     
                 <aside id="krw-about" class="widget widget-kratos-about clearfix">
@@ -460,6 +487,20 @@
     </div>
 </aside>
             
+                    <div class="sticky-area">
+                
+                    <aside id="krw-toc" class="widget widget-kratos-toc clearfix">
+    <div class="photo-background"></div>
+    <h4 class="widget-title no-after">
+        <i class="fa fa-compass"></i>
+        文章目录
+        <span class="toc-progress-bar"></span>
+    </h4>
+    <div class="textwidget">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#intro"><span class="toc-text">Intro</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%88%E5%B0%9D%E8%AF%95%E7%94%A8cd%E8%A3%85%E4%B8%80%E4%B8%8B"><span class="toc-text">先尝试用CD装一下~</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#references"><span class="toc-text">References</span></a></li></ol>
+    </div>
+</aside>
+                
                 
   <aside id="krw-categories" class="widget widget-kratos-categories clearfix">
     <h4 class="widget-title"><i class="fa fa-folder"></i>分类目录</h4>
