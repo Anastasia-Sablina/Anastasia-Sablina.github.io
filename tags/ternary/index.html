@@ -276,7 +276,7 @@
             }, JSON.parse('{"serverURL":"comment-test-q3jozln2z-anastasia-sablina.vercel.app","visitor":true}')));
         }
         if (typeof Waline === 'undefined') {
-            const src = 'https://unpkg.com/@waline/client/dist/Waline.min.js';
+            const src = 'https://unpkg.com/@waline/client@v2/dist/Waline.min.js';
             $.getScript(src, init);
         } else {
             init();

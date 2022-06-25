@@ -347,7 +347,7 @@ CMOS三进制计算机（或许最终会做成模拟计算机？）
             }, JSON.parse('{"serverURL":"comment-test-q3jozln2z-anastasia-sablina.vercel.app","visitor":true}')));
         }
         if (typeof Waline === 'undefined') {
-            const src = 'https://unpkg.com/@waline/client/dist/Waline.min.js';
+            const src = 'https://unpkg.com/@waline/client@v2/dist/Waline.min.js';
             $.getScript(src, init);
         } else {
             init();
