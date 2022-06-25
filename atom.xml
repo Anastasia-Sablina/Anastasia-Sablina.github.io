@@ -6,7 +6,7 @@
   <link href="http://anastasia-sablina.github.io/atom.xml" rel="self"/>
   
   <link href="http://anastasia-sablina.github.io/"/>
-  <updated>2022-06-25T16:20:11.005Z</updated>
+  <updated>2022-06-25T18:06:58.969Z</updated>
   <id>http://anastasia-sablina.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>【Intro】Anastasia的金融玩具箱</title>
-    <link href="http://anastasia-sablina.github.io/Quant/Introduction-to-my-Quant-diary.html"/>
-    <id>http://anastasia-sablina.github.io/Quant/Introduction-to-my-Quant-diary.html</id>
+    <link href="http://anastasia-sablina.github.io/Finance/Introduction-to-my-Quant-diary.html"/>
+    <id>http://anastasia-sablina.github.io/Finance/Introduction-to-my-Quant-diary.html</id>
     <published>2022-05-02T19:23:14.000Z</published>
-    <updated>2022-06-25T16:20:11.005Z</updated>
+    <updated>2022-06-25T18:06:58.969Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>投资是一种比较花钱的个人爱好。</p><p><strong>Anastasia. Sablina</strong>, (?-)</p></blockquote><h1 id="简介">简介：</h1><p>​本系列源自ECE废柴<em>Anastasia-Sablina</em>，要用的数学都是按期末不挂的标准现学的，必定<strong>基础不牢地动山摇</strong>，但理论上都能跑起来[毕竟绝大多数功能都是调用别人的库]( ´ω` ) .</p><p>说是投研其实不过是自动化（迷惑）选股盯盘的平台（而且相当粗糙）</p><p>本系列代码与<strong>非实时</strong>数据集存于githubrepo，参考书目存于同一仓库的reference branch.</p><p>​ 在本系列中有概率使用的库有：<a href="https://numpy.org/doc/1.18/numpy-ref.pdf">Numpy</a>, <a href="https://pandas.pydata.org/pandas-docs/version/0.25.3/pandas.pdf">pandas</a>,<a href="https://matplotlib.org/Matplotlib.pdf">matplotlib</a>, <a href="https://scikit-learn.org/stable/modules/classes.html">Scikit-Learn</a>,<a href="https://mrjbq7.github.io/ta-lib/">TA-Lib</a>(链接为官方文档)</p><p>​ 本系列随缘更，咱看到哪写到哪。</p><h2 id="基础设施篇">基础设施篇：</h2><p>使用飞书机器人API实现自动通知<br>使用shell interface实时显示运行情况<br>远程监控的一点笔记</p><h2 id="金融知识篇">金融知识篇：</h2><h2 id="references"><em>References</em></h2><p>（对不住我的英语老师了 但我是真不想再写APA citation了呜呜呜呜）</p><p>Python for Data Analysis: DATA WRANGLING WITH PANDAS, NUMPY, ANDIPYTHON</p><p>金融统计与数据分析, David Ruppert</p><p>打开量化投资的黑箱,</p><p><del>经典技术分析(原书第三版), Charles. D. Kirkpatrick. Ⅱ</del></p>]]></content>
     
@@ -39,7 +39,7 @@
     
     
     
-    <category term="Quant" scheme="http://anastasia-sablina.github.io/categories/Quant/"/>
+    <category term="Finance" scheme="http://anastasia-sablina.github.io/categories/Finance/"/>
     
     
     <category term="python" scheme="http://anastasia-sablina.github.io/tags/python/"/>
