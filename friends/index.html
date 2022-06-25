@@ -199,28 +199,25 @@
         </footer>
     </div>
     
-        <link rel="stylesheet" href="https://unpkg.com/gitalk@1/dist/gitalk.css">
-<div id="gitalk-container" class="post-comments lazy-load"></div>
+        <div id="w-comments" class="post-comments"></div>
 <script>
     var load_comm = () => {
         const init = () => {
-            console.log('Gitalk loading...');
-            const gitalk = new Gitalk(Object.assign({
-                id: '/friends/index.html',
+            new Waline(Object.assign({
+                el: '#w-comments',
                 path: '/friends/index.html'
-            }, JSON.parse('{"clientID":"94d15f9d3dee9d559d74","clientSecret":"c36a3b203544216018a810384a8d440bdd602fdb","repo":"https://github.com/settings/applications/1936766","owner":"Anastasia-Sablina","admin":["Anastasia"],"distractionFreeMode":true}')));
-
-            gitalk.render('gitalk-container');
+            }, JSON.parse('{"serverURL":"https://comment-test-q3jozln2z-anastasia-sablina.vercel.app/","visitor":true}')));
         }
-        if (typeof Gitalk === 'undefined') {
-            const src = 'https://unpkg.com/gitalk@1/dist/gitalk.min.js';
+        if (typeof Waline === 'undefined') {
+            const src = 'https://unpkg.com/@waline/client/dist/Waline.min.js';
             $.getScript(src, init);
         } else {
             init();
         }
     };
 </script>
-<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://github.com/gitalk/gitalk">comments powered by Gitalk.</a></noscript>
+<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://waline.js.org/">comments powered by Waline.</a></noscript>
+
     
 </article>
 

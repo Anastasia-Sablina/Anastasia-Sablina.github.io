@@ -242,9 +242,19 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
+                                <a id="/brainstorm/ternary-computer-sketch.html" class="leancloud_visitors" data-flag-title="对三进制计算机的一些小脑洞">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="leancloud-visitors-count"> </span> 次阅读
+                                </a>
+                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
+                            
+                                <a>
+                                    <i class="fa fa-commenting-o"></i>
+                                    <span data-xid="/brainstorm/ternary-computer-sketch.html" class="waline-comment-count"> </span> 条评论
+                                </a>
                             
                         
                     </span>
@@ -298,9 +308,19 @@ CMOS三进制计算机（或许最终会做成模拟计算机？）
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
+                                <a id="/brainstorm/brainstorm.html" class="leancloud_visitors" data-flag-title="一些脑洞。">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="leancloud-visitors-count"> </span> 次阅读
+                                </a>
+                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
+                            
+                                <a>
+                                    <i class="fa fa-commenting-o"></i>
+                                    <span data-xid="/brainstorm/brainstorm.html" class="waline-comment-count"> </span> 条评论
+                                </a>
                             
                         
                     </span>
@@ -318,6 +338,26 @@ CMOS三进制计算机（或许最终会做成模拟计算机？）
 
     <div class="hidden">
         <!-- 加载文章阅读对应的统计功能，评论自带的那种 -->
+        
+            <div id="w-comments" class="post-comments"></div>
+<script>
+    var load_comm = () => {
+        const init = () => {
+            new Waline(Object.assign({
+                el: '#w-comments',
+                path: '/categories/brainstorm/index.html'
+            }, JSON.parse('{"serverURL":"https://comment-test-q3jozln2z-anastasia-sablina.vercel.app/","visitor":true}')));
+        }
+        if (typeof Waline === 'undefined') {
+            const src = 'https://unpkg.com/@waline/client/dist/Waline.min.js';
+            $.getScript(src, init);
+        } else {
+            init();
+        }
+    };
+</script>
+<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://waline.js.org/">comments powered by Waline.</a></noscript>
+
         
     </div>
 
