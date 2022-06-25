@@ -458,6 +458,29 @@ Anastasia. Sablina, (?-)
         </nav>
     
     
+        <link rel="stylesheet" href="https://unpkg.com/gitalk@1/dist/gitalk.css">
+<div id="gitalk-container" class="post-comments lazy-load"></div>
+<script>
+    var load_comm = () => {
+        const init = () => {
+            console.log('Gitalk loading...');
+            const gitalk = new Gitalk(Object.assign({
+                id: '/Quant/Introduction-to-my-Quant-diary.html',
+                path: '/Quant/Introduction-to-my-Quant-diary.html'
+            }, JSON.parse('{"clientID":"94d15f9d3dee9d559d74","clientSecret":"c36a3b203544216018a810384a8d440bdd602fdb","repo":"https://github.com/settings/applications/1936766","owner":"Anastasia-Sablina","admin":["Anastasia"],"distractionFreeMode":true}')));
+
+            gitalk.render('gitalk-container');
+        }
+        if (typeof Gitalk === 'undefined') {
+            const src = 'https://unpkg.com/gitalk@1/dist/gitalk.min.js';
+            $.getScript(src, init);
+        } else {
+            init();
+        }
+    };
+</script>
+<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://github.com/gitalk/gitalk">comments powered by Gitalk.</a></noscript>
+    
 </article>
 
         
