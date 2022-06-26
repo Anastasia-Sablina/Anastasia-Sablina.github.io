@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Anastasia-Sablina Design Bureau</title>
+  <title>Tchapaiev Design Bureau</title>
   
   <subtitle>Welcome, enjoy yourself (*´∀`)</subtitle>
-  <link href="http://anastasia-sablina.github.io/atom.xml" rel="self"/>
+  <link href="http://tchapaiev.github.io/atom.xml" rel="self"/>
   
-  <link href="http://anastasia-sablina.github.io/"/>
-  <updated>2022-06-25T18:06:58.969Z</updated>
-  <id>http://anastasia-sablina.github.io/</id>
+  <link href="http://tchapaiev.github.io/"/>
+  <updated>2022-06-26T07:42:14.593Z</updated>
+  <id>http://tchapaiev.github.io/</id>
   
   <author>
     <name>Анастасия-Саблина</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>【Intro】Anastasia的金融玩具箱</title>
-    <link href="http://anastasia-sablina.github.io/Finance/Introduction-to-my-Quant-diary.html"/>
-    <id>http://anastasia-sablina.github.io/Finance/Introduction-to-my-Quant-diary.html</id>
+    <link href="http://tchapaiev.github.io/Finance/Introduction-to-my-Quant-diary.html"/>
+    <id>http://tchapaiev.github.io/Finance/Introduction-to-my-Quant-diary.html</id>
     <published>2022-05-02T19:23:14.000Z</published>
-    <updated>2022-06-25T18:06:58.969Z</updated>
+    <updated>2022-06-26T07:42:14.593Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>投资是一种比较花钱的个人爱好。</p><p><strong>Anastasia. Sablina</strong>, (?-)</p></blockquote><h1 id="简介">简介：</h1><p>​本系列源自ECE废柴<em>Anastasia-Sablina</em>，要用的数学都是按期末不挂的标准现学的，必定<strong>基础不牢地动山摇</strong>，但理论上都能跑起来[毕竟绝大多数功能都是调用别人的库]( ´ω` ) .</p><p>说是投研其实不过是自动化（迷惑）选股盯盘的平台（而且相当粗糙）</p><p>本系列代码与<strong>非实时</strong>数据集存于githubrepo，参考书目存于同一仓库的reference branch.</p><p>​ 在本系列中有概率使用的库有：<a href="https://numpy.org/doc/1.18/numpy-ref.pdf">Numpy</a>, <a href="https://pandas.pydata.org/pandas-docs/version/0.25.3/pandas.pdf">pandas</a>,<a href="https://matplotlib.org/Matplotlib.pdf">matplotlib</a>, <a href="https://scikit-learn.org/stable/modules/classes.html">Scikit-Learn</a>,<a href="https://mrjbq7.github.io/ta-lib/">TA-Lib</a>(链接为官方文档)</p><p>​ 本系列随缘更，咱看到哪写到哪。</p><h2 id="基础设施篇">基础设施篇：</h2><p>使用飞书机器人API实现自动通知<br>使用shell interface实时显示运行情况<br>远程监控的一点笔记</p><h2 id="金融知识篇">金融知识篇：</h2><h2 id="references"><em>References</em></h2><p>（对不住我的英语老师了 但我是真不想再写APA citation了呜呜呜呜）</p><p>Python for Data Analysis: DATA WRANGLING WITH PANDAS, NUMPY, ANDIPYTHON</p><p>金融统计与数据分析, David Ruppert</p><p>打开量化投资的黑箱,</p><p><del>经典技术分析(原书第三版), Charles. D. Kirkpatrick. Ⅱ</del></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>投资是一种比较花钱的个人爱好。</p><p><strong>Anastasia. Sablina</strong>, (?-)</p></blockquote><h1 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h1><p>​本系列源自ECE废柴<em>Anastasia-Sablina</em>，要用的数学都是按期末不挂的标准现学的， 必定<strong>基础不牢地动山摇</strong>，但理论上都能跑起来[毕竟绝大多数功能都是调用别人的库] (  ´ω`  ) . </p><p>说是投研其实不过是自动化（迷惑）选股盯盘的平台（而且相当粗糙）</p><p>本系列代码与<strong>非实时</strong>数据集存于github repo，参考书目存于同一仓库的reference branch.</p><p>​在本系列中有概率使用的库有：<a href="https://numpy.org/doc/1.18/numpy-ref.pdf">Numpy</a>, <a href="https://pandas.pydata.org/pandas-docs/version/0.25.3/pandas.pdf">pandas</a>, <a href="https://matplotlib.org/Matplotlib.pdf">matplotlib</a>, <a href="https://scikit-learn.org/stable/modules/classes.html">Scikit-Learn</a>, <a href="https://mrjbq7.github.io/ta-lib/">TA-Lib</a> (链接为官方文档)</p><p>​本系列随缘更，咱看到哪写到哪。</p><h2 id="基础设施篇："><a href="#基础设施篇：" class="headerlink" title="基础设施篇："></a>基础设施篇：</h2><p>通过Anaconda管理CUDA+cudnn+torch环境</p><p>使用飞书机器人进行自动通知</p><h2 id="金融知识篇："><a href="#金融知识篇：" class="headerlink" title="金融知识篇："></a>金融知识篇：</h2><h2 id="References"><a href="#References" class="headerlink" title="References"></a><em>References</em></h2><p>（对不住我的英语老师了 但我是真不想再写APA citation了呜呜呜呜）</p><p>Python for Data Analysis: DATA WRANGLING WITH PANDAS, NUMPY, AND IPYTHON</p><p>金融统计与数据分析, David Ruppert</p><p>打开量化投资的黑箱, </p><p><del>经典技术分析(原书第三版), Charles. D. Kirkpatrick. Ⅱ</del></p>]]></content>
     
     
       
@@ -32,26 +32,24 @@
 &lt;p&gt;投资是一种比较花钱的个人爱好。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Anastasia. Sablina&lt;/strong&gt;, (?-)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&quot;简介&quot;&gt;简介：&lt;/h1&gt;
-&lt;p&gt;​
-本系列源自ECE废</summary>
+&lt;h1 id=&quot;简介：&quot;&gt;&lt;a href=&quot;#简介：&quot; class=&quot;header</summary>
       
     
     
     
-    <category term="Finance" scheme="http://anastasia-sablina.github.io/categories/Finance/"/>
+    <category term="Finance" scheme="http://tchapaiev.github.io/categories/Finance/"/>
     
     
-    <category term="python" scheme="http://anastasia-sablina.github.io/tags/python/"/>
+    <category term="python" scheme="http://tchapaiev.github.io/tags/python/"/>
     
-    <category term="Finance" scheme="http://anastasia-sablina.github.io/tags/Finance/"/>
+    <category term="Finance" scheme="http://tchapaiev.github.io/tags/Finance/"/>
     
   </entry>
   
   <entry>
     <title>电路元件的建模</title>
-    <link href="http://anastasia-sablina.github.io/circuit-analysis/Modeling-electric-components.html"/>
-    <id>http://anastasia-sablina.github.io/circuit-analysis/Modeling-electric-components.html</id>
+    <link href="http://tchapaiev.github.io/circuit-analysis/Modeling-electric-components.html"/>
+    <id>http://tchapaiev.github.io/circuit-analysis/Modeling-electric-components.html</id>
     <published>2022-04-10T00:46:21.000Z</published>
     <updated>2022-04-16T16:18:22.076Z</updated>
     
@@ -68,15 +66,15 @@
     
     
     
-    <category term="circuit-analysis" scheme="http://anastasia-sablina.github.io/categories/circuit-analysis/"/>
+    <category term="circuit-analysis" scheme="http://tchapaiev.github.io/categories/circuit-analysis/"/>
     
     
   </entry>
   
   <entry>
     <title>对三进制计算机的一些小脑洞</title>
-    <link href="http://anastasia-sablina.github.io/brainstorm/ternary-computer-sketch.html"/>
-    <id>http://anastasia-sablina.github.io/brainstorm/ternary-computer-sketch.html</id>
+    <link href="http://tchapaiev.github.io/brainstorm/ternary-computer-sketch.html"/>
+    <id>http://tchapaiev.github.io/brainstorm/ternary-computer-sketch.html</id>
     <published>2022-04-08T01:19:37.000Z</published>
     <updated>2022-04-10T08:54:57.704Z</updated>
     
@@ -93,17 +91,17 @@
     
     
     
-    <category term="brainstorm" scheme="http://anastasia-sablina.github.io/categories/brainstorm/"/>
+    <category term="brainstorm" scheme="http://tchapaiev.github.io/categories/brainstorm/"/>
     
     
-    <category term="ternary" scheme="http://anastasia-sablina.github.io/tags/ternary/"/>
+    <category term="ternary" scheme="http://tchapaiev.github.io/tags/ternary/"/>
     
   </entry>
   
   <entry>
     <title>一些脑洞。</title>
-    <link href="http://anastasia-sablina.github.io/brainstorm/brainstorm.html"/>
-    <id>http://anastasia-sablina.github.io/brainstorm/brainstorm.html</id>
+    <link href="http://tchapaiev.github.io/brainstorm/brainstorm.html"/>
+    <id>http://tchapaiev.github.io/brainstorm/brainstorm.html</id>
     <published>2022-03-21T22:54:12.000Z</published>
     <updated>2022-04-16T16:01:42.828Z</updated>
     
@@ -122,15 +120,15 @@
     
     
     
-    <category term="brainstorm" scheme="http://anastasia-sablina.github.io/categories/brainstorm/"/>
+    <category term="brainstorm" scheme="http://tchapaiev.github.io/categories/brainstorm/"/>
     
     
   </entry>
   
   <entry>
     <title>A Brief Introduction To Setting Up A Blog</title>
-    <link href="http://anastasia-sablina.github.io/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0.html"/>
-    <id>http://anastasia-sablina.github.io/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0.html</id>
+    <link href="http://tchapaiev.github.io/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0.html"/>
+    <id>http://tchapaiev.github.io/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0.html</id>
     <published>2022-03-01T11:57:06.000Z</published>
     <updated>2022-06-22T03:08:31.969Z</updated>
     
@@ -146,7 +144,7 @@
     
     
     
-    <category term="Blog basic" scheme="http://anastasia-sablina.github.io/categories/Blog-basic/"/>
+    <category term="Blog basic" scheme="http://tchapaiev.github.io/categories/Blog-basic/"/>
     
     
   </entry>
