@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Tchapaiev Design Bureau</title>
+  <title>Sablin Design Bureau</title>
   
   <subtitle>Welcome, enjoy yourself (*´∀`)</subtitle>
-  <link href="http://tchapaiev.github.io/atom.xml" rel="self"/>
+  <link href="http://anastasia-sablina.github.io/atom.xml" rel="self"/>
   
-  <link href="http://tchapaiev.github.io/"/>
+  <link href="http://anastasia-sablina.github.io/"/>
   <updated>2022-06-26T07:42:14.593Z</updated>
-  <id>http://tchapaiev.github.io/</id>
+  <id>http://anastasia-sablina.github.io/</id>
   
   <author>
     <name>Анастасия-Саблина</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>【Intro】Anastasia的金融玩具箱</title>
-    <link href="http://tchapaiev.github.io/Finance/Introduction-to-my-Quant-diary.html"/>
-    <id>http://tchapaiev.github.io/Finance/Introduction-to-my-Quant-diary.html</id>
+    <link href="http://anastasia-sablina.github.io/Finance/Introduction-to-my-Quant-diary.html"/>
+    <id>http://anastasia-sablina.github.io/Finance/Introduction-to-my-Quant-diary.html</id>
     <published>2022-05-02T19:23:14.000Z</published>
     <updated>2022-06-26T07:42:14.593Z</updated>
     
@@ -37,19 +37,19 @@
     
     
     
-    <category term="Finance" scheme="http://tchapaiev.github.io/categories/Finance/"/>
+    <category term="Finance" scheme="http://anastasia-sablina.github.io/categories/Finance/"/>
     
     
-    <category term="python" scheme="http://tchapaiev.github.io/tags/python/"/>
+    <category term="python" scheme="http://anastasia-sablina.github.io/tags/python/"/>
     
-    <category term="Finance" scheme="http://tchapaiev.github.io/tags/Finance/"/>
+    <category term="Finance" scheme="http://anastasia-sablina.github.io/tags/Finance/"/>
     
   </entry>
   
   <entry>
     <title>电路元件的建模</title>
-    <link href="http://tchapaiev.github.io/circuit-analysis/Modeling-electric-components.html"/>
-    <id>http://tchapaiev.github.io/circuit-analysis/Modeling-electric-components.html</id>
+    <link href="http://anastasia-sablina.github.io/circuit-analysis/Modeling-electric-components.html"/>
+    <id>http://anastasia-sablina.github.io/circuit-analysis/Modeling-electric-components.html</id>
     <published>2022-04-10T00:46:21.000Z</published>
     <updated>2022-04-16T16:18:22.076Z</updated>
     
@@ -66,15 +66,15 @@
     
     
     
-    <category term="circuit-analysis" scheme="http://tchapaiev.github.io/categories/circuit-analysis/"/>
+    <category term="circuit-analysis" scheme="http://anastasia-sablina.github.io/categories/circuit-analysis/"/>
     
     
   </entry>
   
   <entry>
     <title>对三进制计算机的一些小脑洞</title>
-    <link href="http://tchapaiev.github.io/brainstorm/ternary-computer-sketch.html"/>
-    <id>http://tchapaiev.github.io/brainstorm/ternary-computer-sketch.html</id>
+    <link href="http://anastasia-sablina.github.io/brainstorm/ternary-computer-sketch.html"/>
+    <id>http://anastasia-sablina.github.io/brainstorm/ternary-computer-sketch.html</id>
     <published>2022-04-08T01:19:37.000Z</published>
     <updated>2022-04-10T08:54:57.704Z</updated>
     
@@ -91,17 +91,17 @@
     
     
     
-    <category term="brainstorm" scheme="http://tchapaiev.github.io/categories/brainstorm/"/>
+    <category term="brainstorm" scheme="http://anastasia-sablina.github.io/categories/brainstorm/"/>
     
     
-    <category term="ternary" scheme="http://tchapaiev.github.io/tags/ternary/"/>
+    <category term="ternary" scheme="http://anastasia-sablina.github.io/tags/ternary/"/>
     
   </entry>
   
   <entry>
     <title>一些脑洞。</title>
-    <link href="http://tchapaiev.github.io/brainstorm/brainstorm.html"/>
-    <id>http://tchapaiev.github.io/brainstorm/brainstorm.html</id>
+    <link href="http://anastasia-sablina.github.io/brainstorm/brainstorm.html"/>
+    <id>http://anastasia-sablina.github.io/brainstorm/brainstorm.html</id>
     <published>2022-03-21T22:54:12.000Z</published>
     <updated>2022-04-16T16:01:42.828Z</updated>
     
@@ -120,15 +120,15 @@
     
     
     
-    <category term="brainstorm" scheme="http://tchapaiev.github.io/categories/brainstorm/"/>
+    <category term="brainstorm" scheme="http://anastasia-sablina.github.io/categories/brainstorm/"/>
     
     
   </entry>
   
   <entry>
     <title>A Brief Introduction To Setting Up A Blog</title>
-    <link href="http://tchapaiev.github.io/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0.html"/>
-    <id>http://tchapaiev.github.io/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0.html</id>
+    <link href="http://anastasia-sablina.github.io/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0.html"/>
+    <id>http://anastasia-sablina.github.io/Blog-basic/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E7%AE%80%E8%BF%B0.html</id>
     <published>2022-03-01T11:57:06.000Z</published>
     <updated>2022-06-22T03:08:31.969Z</updated>
     
@@ -144,7 +144,7 @@
     
     
     
-    <category term="Blog basic" scheme="http://tchapaiev.github.io/categories/Blog-basic/"/>
+    <category term="Blog basic" scheme="http://anastasia-sablina.github.io/categories/Blog-basic/"/>
     
     
   </entry>
